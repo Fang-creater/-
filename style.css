@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #10131f;
+  color: #f1eecb;
+  font-family: "Courier New", "Monaco", monospace;
+}
+
+.game-shell {
+  text-align: center;
+  padding: 12px;
+}
+
+h1 {
+  margin: 8px 0 10px;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.hint {
+  margin: 0 0 12px;
+  color: #e6de9a;
+  font-size: 13px;
+}
+
+canvas {
+  border: 4px solid #f1eecb;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  background: #7fb6e8;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+}
